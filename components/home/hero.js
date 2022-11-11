@@ -16,7 +16,7 @@ export default function Hero() {
 
                     <Link href="/projects">
                         <a className="btn-project">
-                            프로젝트 보러가기
+                            Project
                         </a>
                     </Link>
                     

@@ -34,7 +34,7 @@ export default function ProjectItem({data}){
                 </p>
             </div>
 
-            <div className="flex items-start mt-2 mb-2 ml-1 mr-1">
+            <div className="grid grid-cols-3 m-2 gap-1  ">
                 {tags.map((aTag) => (
                     <h1 className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30" key={aTag.id}>{aTag.name}</h1>
                 ))}
