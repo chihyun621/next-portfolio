@@ -28,10 +28,10 @@ export default function ProjectItem({data}){
             <div className="p-4 flex flex-col">
                 <h1 className="text-2xl font-bold">{title}</h1>
                 <h3 className="mt-4 text-xl">{description}</h3>
-                <a href={githubLink}>Github 바로가기</a>
-               <p className="my-1 ">
+                <p className="my-1 ">
                     작업기간 : {start} ~ {end}
                 </p>
+                <a href={githubLink}>Github 바로가기</a>
             </div>
 
             <div className="grid grid-cols-3 m-2 gap-1  ">
