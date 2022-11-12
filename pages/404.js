@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import Animation404 from '../components/Animaition404';
+import Animation404 from '../components/animaition404';
 
 export default function PageNotFound(){
     return(
