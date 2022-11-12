@@ -29,25 +29,28 @@
 - Vercel
 
 ## **개발일지**
-2022-11-07(월)
-- 개발환경 셋팅
-- Layout (header, footer, 404, projects, hero)
-- 디자인
-
-2022-11-08(화)
-- Link 설정
-- Dark Mode
-
-2022-11-09(수)
-- 노션 API 설정
-- Postman 설치
-- 노션 API 파싱
-
-2022-11-10(목)
-- Project 화면
+2022-11-12(토)
+- 404페이지 애니메이션 추가
+- 404페이지 CSS수정
 
 2022-11-11(금)
 - Github에 업로드
 - Vercel 통한 배포
 - 정리
 
+2022-11-10(목)
+- Project 화면
+
+2022-11-09(수)
+- 노션 API 설정
+- Postman 설치
+- 노션 API 파싱
+
+2022-11-08(화)
+- Link 설정
+- Dark Mode
+
+2022-11-07(월)
+- 개발환경 셋팅
+- Layout (header, footer, 404, projects, hero)
+- 디자인

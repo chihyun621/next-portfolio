@@ -27,7 +27,7 @@ export default function Header(){
 
                         <a href="https://namecard.kakao.com/chihyun621" className="mr-5 hover:text-gray-900">Contact</a>
                     </nav>
-                    {/* 다크모드 토글 버튼 작업 해야함 */}
+               
                     <DarkModeToggleButton/>
                 </div>
             </header>
