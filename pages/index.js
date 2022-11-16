@@ -9,8 +9,8 @@ export default function Home() {
     <Layout>
 
       <Head>
-        <title>개발자 오치현</title>
-        <meta name="description" content="개발자 오치현" />
+        <title>Chihyun-Oh</title>
+        <meta name="description" content="Chihyun-Oh" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">

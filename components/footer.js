@@ -9,7 +9,7 @@ export default function Footer(){
 
                         <Link href="/">
                             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                                <span className="ml-3 text-xl">Dev Chihyun-Oh</span>
+                                <span className="ml-3 text-xl">Log</span>
                             </a>
                         </Link>
 

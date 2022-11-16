@@ -11,8 +11,8 @@ export default function Projects({projects}) {
         <Layout>
             <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
                 <Head>
-                    <title>개발자 오치현</title>
-                    <meta name="description" content="개발자 오치현" />
+                    <title>Chihyun-Oh</title>
+                    <meta name="description" content="Chihyun-Oh" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <h1 className="text-4xl font-bold sm:text-6xl">

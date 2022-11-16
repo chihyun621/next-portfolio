@@ -10,7 +10,7 @@ export default function Hero() {
                     개발자 오치현입니다.
                 </h1>
                 <p className="mb-8 leading-relaxed">
-                    개발에 즐거며 백엔드 개발자를 목표로 하고 있는 개발자 오치현입니다.    
+                    본 사이는 개인 포트폴리오를 쉬운 관리 및 접근성을 생각하여 개발하였습니다. 추가 개발 내역은 Log에 Project보기는 Project로 가시면 됩니다. 
                 </p>
                 <div className="flex justify-center">
 

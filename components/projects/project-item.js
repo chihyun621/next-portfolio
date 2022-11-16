@@ -10,7 +10,9 @@ export default function ProjectItem({data}){
     const tags = data.properties.Tags.multi_select
     const start = data.properties.WorkpPeriod.date?.start
     const end = data.properties.WorkpPeriod.date?.end
+    const file = data.properties.File.files[0]?.file?.url
 
+   console.log(githubLink)
     return(
         <div className="project-card">
 
@@ -31,7 +33,12 @@ export default function ProjectItem({data}){
                 <p className="my-1 ">
                     작업기간 : {start} ~ {end}
                 </p>
-                <a href={githubLink}>Github 바로가기</a>
+                {
+                    githubLink ? <a href={githubLink}>Github 바로가기</a> : <div className="hidden"></div>
+                }
+                {
+                    file ? <a href={file}>첨부파일 다운로드</a> : <div className="hidden"></div>
+                }
             </div>
 
             <div className="grid grid-cols-3 m-2 gap-1  ">
