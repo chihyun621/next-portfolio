@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Result } from "postcss";
 
+
 export default function ProjectItem({data}){
 
     const title = data.properties.Name.title[0]?.plain_text
@@ -11,8 +12,9 @@ export default function ProjectItem({data}){
     const start = data.properties.WorkpPeriod.date?.start
     const end = data.properties.WorkpPeriod.date?.end
     const file = data.properties.File.files[0]?.file?.url
+    const color = data.properties.Tags.multi_select[0]?.color
 
-   console.log(githubLink)
+
     return(
         <div className="project-card">
 
@@ -40,7 +42,7 @@ export default function ProjectItem({data}){
                     file ? <a href={file}>첨부파일 다운로드</a> : <div className="hidden"></div>
                 }
             </div>
-
+                    
             <div className="grid grid-cols-3 m-2 gap-1  ">
                 {tags.map((aTag) => (
                     <h1 className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30" key={aTag.id}>{aTag.name}</h1>
